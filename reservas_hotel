@@ -1,0 +1,90 @@
+clientes = []
+
+# Cadastro de Cliente
+usuario1 = input('Digite o nome do cliente1: ')
+idade1 = int(input('Digite a idade do cliente1: '))
+quarto1 = input('Escolha o quarto (simples / duplo / luxo): ')
+dias1 = int(input('Quantidade de dias no hotel: '))
+
+if quarto1 == 'simples':
+    valor1 = 100
+elif quarto1 == 'duplo':
+    valor1 = 150
+elif quarto1 == 'luxo':
+    valor1 = 250
+else:
+    valor1 = 0
+    print('Tipo de quarto inválido!')
+
+total1 = valor1 * dias1
+clientes.append(total1)
+
+print('Cliente1', usuario1)
+print('Total a pagar: R$ ', total1)
+
+formas_pagamentos =  ['pix','boleto','cc','cd']
+print('escolha a  forma de pagamento: ', formas_pagamentos)
+escolhe_forma = input('Digite a forma de pagamento: ')
+indice = formas_pagamentos.index(escolhe_forma)
+print('Forma de pagamento: ', formas_pagamentos[indice])
+print('Obrigada volte sempre! ')
+
+print('***' * 20)
+
+usuario2 = input('Digite o nome do cliente2: ')
+idade2 = int(input('Digite a idade do cliente2: '))
+quarto2 = input('Escolha o quarto (simples / duplo / luxo): ')
+dias2 = int(input('Quantidade de dias no hotel: '))
+
+if quarto2 == 'simples':
+    valor2 = 100
+elif quarto2 == 'duplo':
+    valor2 = 150
+elif quarto2 == 'luxo':
+    valor2 = 250
+else:
+    valor2 = 0
+    print('Tipo de quarto inválido!')
+
+total2 = valor2 * dias2
+clientes.append(total2)
+
+print('Cliente2', usuario2)
+print('Total a pagar: R$ ', total2)
+
+formas_pagamentos =  ['pix','boleto','cc','cd']
+print('escolha a  forma de pagamento: ', formas_pagamentos)
+escolhe_forma = input('Digite a forma de pagamento: ')
+indice = formas_pagamentos.index(escolhe_forma)
+print('Forma de pagamento: ', formas_pagamentos[indice])
+print('Obrigada volte sempre! ')
+
+print('***' * 20)
+
+usuario3 = input('Digite o nome do cliente3: ')
+idade3 = int(input('Digite a idade do cliente3: '))
+quarto3 = input('Escolha o quarto (simples / duplo / luxo): ')
+dias3 = int(input('Quantidade de dias no hotel: '))
+
+if quarto3 == 'simples':
+    valor3 = 100
+elif quarto3 == 'duplo':
+    valor3 = 150
+elif quarto3 == 'luxo':
+    valor3 = 250
+else:
+    valor3 = 0
+    print('Tipo de quarto inválido!')
+
+total3 = valor3 * dias3
+clientes.append(total1)
+
+print('Cliente1', usuario3)
+print('Total a pagar: R$ ', total3)
+
+formas_pagamentos =  ['pix','boleto','cc','cd']
+print('escolha a  forma de pagamento: ', formas_pagamentos)
+escolhe_forma = input('Digite a forma de pagamento: ')
+indice = formas_pagamentos.index(escolhe_forma)
+print('Forma de pagamento: ', formas_pagamentos[indice])
+print('Obrigada volte sempre! ')

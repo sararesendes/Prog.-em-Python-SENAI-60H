@@ -1,0 +1,11 @@
+# 1* 
+# Peça para o usuário digitar um número, verifique se um número é positivo, 
+# negativo ou zero.
+
+numero = int(input('Digite um número: '))
+if numero <0:
+    print('negativo')
+elif numero >0:
+    print('positivo')
+else:
+    print('zero')

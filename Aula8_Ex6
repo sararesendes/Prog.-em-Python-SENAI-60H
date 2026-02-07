@@ -1,0 +1,10 @@
+# 6*
+
+# Verifique se um número é positivo e maior que 10
+
+numero = int(input('Digite um número: '))
+
+if numero >=0 and numero >10:
+    print('Número positivo e maior que 10')
+else:
+    print('Número NÃO é positivo e maior que 10')

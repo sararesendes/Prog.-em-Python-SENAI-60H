@@ -1,0 +1,13 @@
+# 2*
+# Peça para o usuário digitar a idade, verifique se uma pessoa pode votar com 
+# base na idade
+
+idade = int(input('idade: '))
+
+if idade >=18:
+    print('Pode votar')
+elif idade >16 and idade <18:
+    print('Pode votar - Facultaivo ')
+else:
+    print('Não pode votar')
+    

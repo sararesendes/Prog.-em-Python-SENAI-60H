@@ -1,0 +1,19 @@
+# 4*
+
+# Usuário vai digitar 3  números, para criar um triângulo, verifique se um triângulo 
+# é equilátero, isósceles ou escaleno
+
+# Um triângulo é chamado de equilátero se todos os lados possuem a mesma medida. 
+# Um triângulo é chamado de isósceles se dois lados possuem a mesma medida. 
+# Um triângulo é chamado de escaleno se todos os lados possuem medidas diferentes.
+
+numero1 = int(input('Digite o valor do lado1: '))
+numero2 = int(input('Digite o valor do lado2: '))
+numero3 = int(input('Digite o valor do lado3: '))
+
+if numero1 == numero2 and numero2 == numero3:
+    print('Triângulo Equilátero')
+elif numero1 == numero2 or numero1 == numero3 or numero2 == numero3:
+    print('Triângulo Isósceles')
+else:
+    print('Triângulo Escaleno')
